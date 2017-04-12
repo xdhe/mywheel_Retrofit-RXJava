@@ -210,18 +210,6 @@ public class RetrofitHelp {
                 });
             }
         };
-//        return upstream -> upstream.flatMap(new Function<HuanpengBean<T>, Publisher<T>>() {
-//            @Override
-//            public Publisher<T> apply(HuanpengBean<T> tHuanpengBean) throws Exception {
-//                Log.e("HuanpengBean", "HuanpengBean: " + tHuanpengBean.getStatus());
-//                Log.e("HuanpengBean222", "HuanpengBean: " + tHuanpengBean.toString());
-//                if ("1".equals(tHuanpengBean.getStatus())) {
-//                    return createData(tHuanpengBean.getContent());
-//                } else {
-//                    return createData(tHuanpengBean.getContent());
-//                }
-//            }
-//        });
     }
 
     /**

@@ -17,7 +17,6 @@ import com.wheel.xiaodong.mywheel.retrofithelp.ErrorBean;
 import com.wheel.xiaodong.mywheel.retrofithelp.InfoView;
 import com.wheel.xiaodong.mywheel.retrofithelp.Presenter;
 import com.wheel.xiaodong.mywheel.retrofithelp.TheatersMoive;
-import com.wheel.xiaodong.mywheel.retrofithelp.User;
 import com.wheel.xiaodong.mywheel.retrofithelp.UserAdapter;
 
 import java.io.File;
@@ -80,11 +79,6 @@ public class MainActivity extends AppCompatActivity implements InfoView, OnItemC
 //                .setOnPageChangeListener(this)//监听翻页事件
                 .setOnItemClickListener(this);
     }
-
-    public void setData(User user) {
-
-    }
-
     @Override
     public void setData(ErrorBean o, int tag) {
         if (o instanceof TheatersMoive) {
